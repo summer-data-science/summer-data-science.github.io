@@ -4,7 +4,7 @@ A minimalistically-styled site for the summer data science reading group.
 
 ## Building and Serving Locally
 
-First, make sure that you've installed [pelican](https://github.com/getpelican/pelican). To build the site, run `pelican content` which will generate the files in the `output` directory. To serve the site, you can use a command like this: `(cd output && python -m http.server)`. To both build then serve the site, you can run the `./run_local.sh` script.
+First, make sure that you've installed [pelican](https://github.com/getpelican/pelican) and [markdown](https://pypi.org/project/Markdown/). To build the site, run `pelican content` which will generate the files in the `output` directory. To serve the site, you can use a command like this: `(cd output && python -m http.server)`. To both build then serve the site, you can run the `./run_local.sh` script.
 
 ## Deployment
 
